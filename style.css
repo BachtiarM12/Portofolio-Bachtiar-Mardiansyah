@@ -1,0 +1,70 @@
+.banner {
+    background: url("images/piece-coffee-notebook.jpg")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #000000;
+  }
+
+  .overlay-box {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+   
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+  }
+  
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-card {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .img-card img {
+    width: 200px; 
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+
+  .img-card p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
